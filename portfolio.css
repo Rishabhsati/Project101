@@ -1,0 +1,168 @@
+body{
+    background: #16161a;
+    margin: 0px;
+}
+nav{
+    margin: 0;
+    font-size: 25px;
+    font-weight:bold;
+    font-family:sans-serif;
+    color: aliceblue;
+    background: rgba(245, 245, 245, 0.062);
+}
+#navbar{
+    display:flex;
+    padding: 10px ;
+    margin-right: 10%;
+    justify-content: end;
+}    
+#navbar a{
+    margin-left: 5%;
+}
+#navbar a:hover{
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #45f8b0;
+}
+#username{
+    position: relative;
+    font-size: 2.8rem;
+    margin-left: 15px;
+    font-family:monospace;
+}
+#username:hover{
+    color: #f8a745;
+}
+#profile{
+    color: #7f5af0;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#name h4{
+    margin-left: 50px;
+    font-family:monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#name h4:hover{
+    color: #f8a745;
+    margin-left: 50px;
+    font-family:monospace;
+    font-size: 20px;
+}
+#profile img{
+    border-radius: 50%;
+    width: 200px;  
+    height: 190px;
+}
+#about h3{
+    display:inline-block;
+    color: #7f5af0;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-family:monospace;
+    font-size: 35px;
+}
+#about h3:hover{
+    color: #f8a745;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-family:monospace;
+    font-size: 35px;
+}
+#about p{
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 2em;
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+}
+section h2{
+      font-size: 25px;
+      color: #7f5af0;
+      font-family: sans-serif;
+      margin: 4px 20px;
+      padding: 10px;
+      text-decoration: 4px underline white;
+  }
+  section h2:hover{
+      color: #ef9629;
+      font-style: italic;
+  }
+#skills{
+    padding: 5px;
+    background: rgba(245, 245, 245, 0.062);
+}
+#skills h2{
+    display:inline-block;
+    margin-left: 2.5rem;
+}
+#skills div{
+    color: aliceblue;
+    margin: 25px;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#projects {
+    margin: 35px;
+}
+#projects h2{
+    display:inline-block;
+}
+#projects div{
+    margin: 25px 50px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: sans-serif;
+    display: grid;
+    width: 50%;
+    padding: 15px; 
+    border: 2px solid ; 
+}
+#projects div:hover{
+    /* color: rgb(190, 190, 190); */
+    border: 2px solid rgb(190, 190, 190); 
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(115, 240, 43);
+}
+#socials h2{
+    display: inline-block;
+    margin: 5px 55px;
+}
+#socials div{
+    margin: 5px 80px 10px ;
+    font-size: larger;
+    padding: 10px 0 15px;
+}
+footer {
+    margin: 0px;
+    background:rgba(245, 245, 245, 0.062) ;
+}
+#contact h3{
+    font-size: x-large;
+    color: white;
+    font-family:sans-serif;
+    margin: 0% 50px;
+    padding: 15px ;
+}
+#contact div{
+    color: aliceblue;
+    font: 15px sans-serif ;
+    margin: 0 70px ;
+    padding: 10px;
+}

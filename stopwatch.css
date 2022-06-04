@@ -1,0 +1,60 @@
+body{
+    background: #448aff;
+}
+.container{
+    background-color: #fff;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0 50px;
+    border-radius: 10px;
+}
+.timerDisplay{
+    align-items: center;
+    padding: 40px 0;
+    font-size: 3rem;
+    display: flex;
+    position: relative;
+    font-family: monospace, sans-serif;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: 92%;
+    background-color: rgb(142, 140, 140); 
+    left: 4%; 
+    color: aliceblue; 
+    box-shadow:  0 10px 25px rgba(0,0, 0, 0.20),0 10px 10px  rgba(0,0, 0, 0.16);
+}
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    border: none;
+    background-color: aqua;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow:  0 10px 15px rgba(0,0, 0, 0.20),0 8px 15px  rgba(0,0, 0, 0.16);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    margin: 2.5 rem 0 0 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 1px rgb(236, 175, 63);
+}
