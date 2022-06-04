@@ -5,9 +5,11 @@ function playsound(e){
     if(!audio) return;
     audio.currentTime=0;
     key.classList.add('playing');    
+    // console.log("started");
     audio.play();
     setTimeout(() => {
         key.classList.remove('playing'); 
+        // console.log("ended");
     }, (70));
 }
 
