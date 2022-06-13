@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todo list</title>
-    <script src="todo.js" type="text/javascript"></script>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-    <header>
-        <h2>todo list </h2>
-    </header>
-    <div class="input">
-        <input type="text" class="Task" placeholder=" enter task">
-        <button onclick="inputTask()">add task</button>
-        <p id="input"></p>
-        <input type="text" class="Task" placeholder=" enter task">
-        <button onclick="inputTask()">add task</button>
-        <p id="inp"></p>
-    </div>
-<p id="demo"></p>
+         <header>
+            <h2>To Do List</h2>
+            <div class="input">
+                <input id="task" type="text" class="Task" placeholder=" Enter task...">
+                <button onclick="inputTask()">Add</button>
+            </div>
+        </header>
+        <ul id="taskList">
+        </ul> 
+    <script src="todo.js" type="text/javascript"></script>
 </body>
 </html>

@@ -10,4 +10,3 @@ function playsound(e){
         key.classList.remove('playing'); 
     }, (70));
 }
-
