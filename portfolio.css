@@ -18,6 +18,7 @@ nav{
 }    
 #navbar a{
     margin-left: 5%;
+    color: #7f5af0;
 }
 #navbar a:hover{
     justify-content: space-between;
